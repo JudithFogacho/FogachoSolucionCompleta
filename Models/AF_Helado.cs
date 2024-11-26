@@ -2,7 +2,7 @@
 
 namespace FogachoWebHeladeria.Models
 {
-    public class AF_Heladeria
+    public class AF_Helado
     {
         [Key]
         public int AF_IdHeladeria { get; set; }
