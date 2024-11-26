@@ -86,9 +86,11 @@ h1 {
 .enlace a {
     font-size: 1.2rem;
     color: #d63384;
+    
     text-decoration: none;
     font-family: 'Londrina Solid', sans-serif;
 }
+
 
     .enlace a:hover {
         text-decoration: underline;
