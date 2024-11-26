@@ -1,48 +1,102 @@
-﻿/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+﻿body {
+    margin: 0;
+    font-family: 'Londrina Solid', sans-serif;
+    position: relative;
+    overflow-x: hidden;
+    background-color: #fef5e6; 
 }
 
-a {
-  color: #0077cc;
+.background-shapes {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+.shape {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.8;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+.shape-1 {
+    width: 400px;
+    height: 400px;
+    top: 50px;
+    left: -100px;
+    background-color: #ffd7ce; /* Light peach color */
 }
 
-.border-top {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+.shape-2 {
+    width: 600px;
+    height: 600px;
+    bottom: -200px;
+    right: -150px;
+    background-color: #ffe0b2; /* Light orange color */
 }
 
-button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
+.shape-3 {
+    width: 300px;
+    height: 300px;
+    top: 30%;
+    left: 50%;
+    background-color: #f8bbd0; /* Light pink color */
+    transform: translate(-50%, -50%);
+}
+.text-center {
+    color: #CF7B89;
+    font-family: 'Londrina Solid', sans-serif;
+}
+h1 {
+    font-family: 'Londrina Solid', sans-serif;
 }
 
+/* Main content container */
+.container {
+    position: relative;
+    z-index: 1;
+    font-family: 'Londrina Solid', sans-serif;
+}
+
+/* Table styles */
+.table {
+    margin-top: 20px;
+    background-color: #fff;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    font-family: 'Londrina Solid', sans-serif;
+}
+
+    .table th, .table td {
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+
+    .table th {
+        background-color: #f8bbd0;
+        color: #333;
+    }
+
+    .table tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+.enlace a {
+    font-size: 1.2rem;
+    color: #d63384;
+    text-decoration: none;
+    font-family: 'Londrina Solid', sans-serif;
+}
+
+    .enlace a:hover {
+        text-decoration: underline;
+    }
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 47px;
 }
