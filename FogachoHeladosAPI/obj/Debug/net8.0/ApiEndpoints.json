@@ -1,0 +1,173 @@
+[
+  {
+    "ContainingType": "FogachoHeladosAPI.Controllers.AF_HeladoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapAF_HeladoEndpoints\u003Eb__0_0",
+    "RelativePath": "api/AF_Helado/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[FogachoHeladosAPI.Models.AF_Helado, FogachoHeladosAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "AF_Helado"
+    ],
+    "EndpointName": "GetAllAF_Helados"
+  },
+  {
+    "ContainingType": "FogachoHeladosAPI.Controllers.AF_HeladoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapAF_HeladoEndpoints\u003Eb__0_3",
+    "RelativePath": "api/AF_Helado/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "aF_Helado",
+        "Type": "FogachoHeladosAPI.Models.AF_Helado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FogachoHeladosAPI.Models.AF_Helado",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ],
+    "Tags": [
+      "AF_Helado"
+    ],
+    "EndpointName": "CreateAF_Helado"
+  },
+  {
+    "ContainingType": "FogachoHeladosAPI.Controllers.AF_HeladoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapAF_HeladoEndpoints\u003Eb__0_1",
+    "RelativePath": "api/AF_Helado/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "af_idheladeria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FogachoHeladosAPI.Models.AF_Helado",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "AF_Helado"
+    ],
+    "EndpointName": "GetAF_HeladoById"
+  },
+  {
+    "ContainingType": "FogachoHeladosAPI.Controllers.AF_HeladoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapAF_HeladoEndpoints\u003Eb__0_2",
+    "RelativePath": "api/AF_Helado/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "af_idheladeria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "aF_Helado",
+        "Type": "FogachoHeladosAPI.Models.AF_Helado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "AF_Helado"
+    ],
+    "EndpointName": "UpdateAF_Helado"
+  },
+  {
+    "ContainingType": "FogachoHeladosAPI.Controllers.AF_HeladoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapAF_HeladoEndpoints\u003Eb__0_4",
+    "RelativePath": "api/AF_Helado/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "af_idheladeria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "AF_Helado"
+    ],
+    "EndpointName": "DeleteAF_Helado"
+  },
+  {
+    "ContainingType": "FogachoHeladosAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FogachoHeladosAPI.WeatherForecast, FogachoHeladosAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
